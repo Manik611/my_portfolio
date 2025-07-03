@@ -1,0 +1,172 @@
+/* Reset and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("image.png");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: center;
+  color: #e7e0e0;
+  padding-bottom: 60px;
+}
+
+/* Navigation Bar */
+nav{
+  position: sticky;
+  top: 0%;
+  z-index: 1000;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
+
+li a {
+  display: block;
+  padding: 16px 24px;
+  color: black;
+  background-color: #ffeb3b;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+li a:hover {
+  background-color: #00c853;
+  color: #fff;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  padding: 20px 0;
+  color: #0339b8;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* Paragraphs & Text */
+p, pre {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #000000;
+  margin: 15px auto;
+  max-width: 900px;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* profile and other images */
+img {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+
+/* project images */
+section#project img {
+  margin: 20px;
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* section spacing*/
+section {
+  padding: 40px 20px;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: none;
+  color: #ccc;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+/*button hover link*/
+center a:hover {
+  color: chartreuse;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*events part*/
+#events h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #000000;
+  margin: 15px 0;
+}
+
+#events ul {
+  list-style-type: disc;
+  margin: 0 auto 20px auto;
+  max-width: 800px;
+  padding-left: 40px;
+  color: #000000;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+#events ul li {
+  margin-bottom: 10px;
+}
+/*contact part*/
+#contact\ me .contact-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #000000;
+  text-align: center;
+}
+
+#contact\ me .contact-row span {
+  white-space: nowrap;
+}
+
+#contact\ me a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#contact\ me a:hover {
+  color: #eb1515;
+}

@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+}
+/*background image*/
+body{
+    background-image: url("image2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(210, 225, 202);
+    background-attachment: fixed;
+    }
+/*my pic*/
+img{
+     width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-color: rgb(0, 4, 255);
+}
+/*headings*/
+h1{
+    text-align: center;
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+}
+/*all paragraphs*/
+p{
+    text-align: center;
+    color: rgb(227, 11, 11);
+}
+/*tab name*/
+title{
+    padding: 30px;
+}
+/*headins*/
+h2{
+    padding: 20px;
+}
+/*click here about me,skills*/
+center a:hover{
+  color: chartreuse;
+  background-color: transparent;
+  text-decoration: underline;
+}
